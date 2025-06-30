@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 // "use client"
 
@@ -1266,7 +1267,6 @@
 // ---------------------------------
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
-/* eslint-disable @typescript-eslint/no-explicit-any */
 
 "use client"
 
@@ -1497,7 +1497,6 @@ const RadioGroup = ({
 )
 
 const RadioGroupItem = ({
-  value,
   id,
   isSelected,
   onSelect,
@@ -1572,7 +1571,6 @@ const Dialog = ({
 const DialogTrigger = ({
   children,
   asChild,
-  isOpen,
   onOpenChange,
 }: {
   children: React.ReactNode
@@ -1853,7 +1851,7 @@ export default function QuizProctored() {
             backgroundColor: "#ffffff",
           })
           screenImage = canvas.toDataURL("image/jpeg", 0.9)
-        } catch (html2canvasError) {
+        } catch (error) {
           console.warn("html2canvas failed, creating placeholder screen image")
 
           // Create a more detailed placeholder screen image
