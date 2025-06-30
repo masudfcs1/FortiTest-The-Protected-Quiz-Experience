@@ -62,7 +62,7 @@ const StatCard: React.FC<StatCardProps> = ({ number, label, delay }) => {
 };
 
 const LandingPage: React.FC = () => {
-  const [isDark, setIsDark] = useState(true);
+  const [isDark, setIsDark] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrollY, setScrollY] = useState(0);
 
