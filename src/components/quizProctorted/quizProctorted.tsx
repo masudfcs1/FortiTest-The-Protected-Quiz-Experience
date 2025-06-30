@@ -1851,7 +1851,7 @@ export default function QuizProctored() {
             backgroundColor: "#ffffff",
           })
           screenImage = canvas.toDataURL("image/jpeg", 0.9)
-        } catch (error) {
+        } catch {
           console.warn("html2canvas failed, creating placeholder screen image")
 
           // Create a more detailed placeholder screen image
