@@ -37,7 +37,7 @@
 
 ## 🖥️ Live Demo
 
-👉 [https://securequiz.yourdomain.com](https://securequiz.yourdomain.com)
+👉 [https://protectedquiz.vercel.app/](https://protectedquiz.vercel.app/)
 
 ---
 
