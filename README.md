@@ -1,4 +1,10 @@
 # 🛡️ SecureQuiz – A Fortified Quiz App Built with Next.js
+![image](https://github.com/user-attachments/assets/a47e7b6e-98d9-4990-8a8b-c4a4e93a2ad0)
+![image](https://github.com/user-attachments/assets/37213b53-97f9-46e6-8be0-d19bce21a49b)
+![image](https://github.com/user-attachments/assets/bee63589-9344-469a-86b7-786514cc3e8e)
+![image](https://github.com/user-attachments/assets/dd8be77f-819a-4e85-9e6c-44a84d130f3f)
+![image](https://github.com/user-attachments/assets/f68c21e6-fbb0-440f-b257-4be08a965c10)
+
 
 ![image](https://github.com/user-attachments/assets/3299c96f-5e1a-49c2-8c66-04cb882a5930)
 ![image](https://github.com/user-attachments/assets/21b94b08-c095-49ec-aa79-6fdd1d2f0262)
