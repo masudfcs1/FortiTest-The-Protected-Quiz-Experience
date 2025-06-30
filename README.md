@@ -1,17 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛡️ SecureQuiz – A Fortified Quiz App Built with Next.js
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-13%2B-black?logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-Strong-blue?logo=typescript)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-CSS%20Framework-38b2ac?logo=tailwind-css)
+![Security First](https://img.shields.io/badge/Security-Enabled-green?style=flat-square)
+![License](https://img.shields.io/github/license/yourusername/securequiz)
+
+> ✨ A secure and modern quiz app designed to prevent cheating, protect user data, and deliver fair assessments – all powered by the **Next.js framework**!
+
+---
+
+## 🚀 Features
+
+- 🔐 **User Authentication & Authorization** (JWT, sessions)
+- 🧠 **MCQ-Based Dynamic Quizzes**
+- 🛡️ **Anti-Cheat Measures** (Inspect block, copy/paste disable, session control)
+- 🌍 **Server-Side Rendering (SSR)** for secure data fetching
+- 📊 **Admin Dashboard** for quiz and result management
+- 📄 **PDF Result Export**
+- 📦 **Fully Responsive & Accessible**
+
+---
+
+## 🧰 Tech Stack
+
+| Category      | Tech Used                  |
+| ------------- | -------------------------- |
+| 🔧 Framework  | Next.js (App Router)       |
+| 💅 Styling    | Tailwind CSS, Headless UI  |
+| 📜 Language   | TypeScript                 |
+| 🔐 Auth       | NextAuth / JWT             |
+| 🧠 DB & ORM   | PostgreSQL + Prisma        |
+| ☁️ Hosting    | Vercel / Any Node Host     |
+
+---
+
+## 🖥️ Live Demo
+
+👉 [https://securequiz.yourdomain.com](https://securequiz.yourdomain.com)
+
+---
+
+## 📦 Getting Started
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/securequiz.git
+cd securequiz
 
 First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
