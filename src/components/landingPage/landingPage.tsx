@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Shield, Lock, Eye, Users, Menu, X, Sun, Moon, CheckCircle, ArrowRight, Play, Zap, Globe, Clock, Smartphone, Code, BarChart3, UserCheck, Download, Github, Twitter, Mail, Heart } from 'lucide-react';
+import Link from 'next/link';
 
 interface FeatureCardProps {
   icon: React.ReactNode;
@@ -98,7 +99,12 @@ const LandingPage: React.FC = () => {
             </div>
 
             <div className="hidden md:flex items-center space-x-8">
-              <a href="#features" className="text-gray-600 dark:text-gray-300 hover:text-blue-500 transition-colors font-medium">Features</a>
+                <Link
+                href="/proected-quiz-live"
+                className="text-gray-600 dark:text-gray-300 hover:text-blue-500 transition-colors font-medium"
+              >
+                Quiz
+              </Link>      
               <a href="#security" className="text-gray-600 dark:text-gray-300 hover:text-blue-500 transition-colors font-medium">Security</a>
               <a href="#stats" className="text-gray-600 dark:text-gray-300 hover:text-blue-500 transition-colors font-medium">Stats</a>
               <a href="#pricing" className="text-gray-600 dark:text-gray-300 hover:text-blue-500 transition-colors font-medium">Pricing</a>
@@ -125,8 +131,12 @@ const LandingPage: React.FC = () => {
         {/* Enhanced Mobile Menu */}
         <div className={`md:hidden transition-all duration-300 ${isMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'} overflow-hidden bg-white/10 dark:bg-gray-900/90 backdrop-blur-xl`}>
           <div className="px-4 py-6 space-y-4">
-            <a href="#features" className="block text-gray-600 dark:text-gray-300 hover:text-blue-500 transition-colors font-medium py-2">Features</a>
-            <a href="#security" className="block text-gray-600 dark:text-gray-300 hover:text-blue-500 transition-colors font-medium py-2">Security</a>
+            <Link
+                href="/proected-quiz-live"
+                className="text-gray-600 dark:text-gray-300 hover:text-blue-500 transition-colors font-medium"
+              >
+                Quiz
+              </Link>            <a href="#security" className="block text-gray-600 dark:text-gray-300 hover:text-blue-500 transition-colors font-medium py-2">Security</a>
             <a href="#stats" className="block text-gray-600 dark:text-gray-300 hover:text-blue-500 transition-colors font-medium py-2">Stats</a>
             <a href="#pricing" className="block text-gray-600 dark:text-gray-300 hover:text-blue-500 transition-colors font-medium py-2">Pricing</a>
             <button

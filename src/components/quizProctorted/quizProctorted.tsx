@@ -77,7 +77,7 @@ const videoConstraints = {
   frameRate: 30,
 }
 
-export default function Component() {
+export default function QuizProctorted() {
   const [currentQuestion, setCurrentQuestion] = useState(0)
   const [answers, setAnswers] = useState<{ [key: number]: number }>({})
   const [quizStarted, setQuizStarted] = useState(false)
