@@ -61,7 +61,6 @@
 
 ```bash
 git clone https://github.com/yourusername/securequiz.git
-cd securequiz
 
 First, run the development server:
 
